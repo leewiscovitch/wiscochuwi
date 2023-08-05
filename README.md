@@ -36,3 +36,8 @@ Get-WindowsUpdate
 Install-WindowsUpdate
 ```
 
+you can also use this to download, install and reboot in one command:
+
+```pwsh
+Get-WindowsUpdate -AcceptAll -Install -AutoReboot
+```
